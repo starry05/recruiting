@@ -9,12 +9,12 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
    return (
     <div id="recent" w='100%' style={{minWidth:'940px'}}  >     
       <div style={{backgroundImage: "url(recentBg.png)" ,backgroundRepeat:"no-repeat" ,backgroundPosition:'100%,10%',WebkitBackgroundSize:"100%"}}> 
-        <Box boxSize='50%'  ml='50%' mt='-10%'>
+        <Box boxSize='50%'  ml='50%' mt='-15%'>
           <img src='rainbow.png' alt='rainbow'/>
         </Box>
-        <Stack   mt='-40%' pl='10%'>
+        <Stack   mt='-35%' pl='10%'>
           <HStack   >
-            <Box  w='30%' pl='-5%' pt='5%'>
+            <Box  w='35%' pl='5%' pt='5%'>
               <img src='recent.png' alt='matrix logo'/>
             </Box>
             {/* <Box  w='50%' pl='20%' >

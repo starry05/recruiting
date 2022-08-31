@@ -13,7 +13,7 @@ export default function Requirement(){
                     <img src='requirement.png' alt='requirement heading'/>
                 </Box>
                 <Box w='80%' mr='15%' >
-                    <Tabs  isFitted h='full' size='lg'  borderRadius='2xl' boxShadow='lg'>
+                    <Tabs  isFitted h='full' size='lg' bg='rgb(255,255,255,0.3)'  borderRadius='2xl' boxShadow='lg'>
                         <TabList>
                             <Tab>产品</Tab>
                             <Tab>设计</Tab>
