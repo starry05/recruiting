@@ -13,7 +13,7 @@ export default function APP(){
         <div  >
             
             <Title />
-            <Navigation />
+            {/* <Navigation /> */}
             <Introduction />
             <Recent />
             <Welfare />

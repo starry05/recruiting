@@ -6,7 +6,7 @@ import {Box,Stack,Text,HStack} from '@chakra-ui/react'
  export default function Introduction(){
    return (
     <div id="introduction" w='100%' h='100%'  style={{backgroundImage: "url(intro-background.png)" ,backgroundRepeat:"no-repeat"}}>
-      <HStack w='100%' h='100%' pb='350px' mt='-50px'> 
+      <HStack w='100%' h='100%' pb='350px' > 
         <Stack w='40%' mt='50px'>
           <Box  w='100%' pl='15%' >
             <img src='introImg.png' alt='matrix logo'/>
