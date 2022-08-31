@@ -6,14 +6,14 @@ import {Box,HStack,Stack,Text} from '@chakra-ui/react'
 
 export default function Welfare(){
     return (
-    <div  w='100%' h='100%' mt='30%' style={{backgroundImage: "url(welfareBg.png)" ,backgroundRepeat:"no-repeat" }}>
+    <div  w='100%' h='100%'  style={{backgroundImage: "url(welfareBg.png)" ,backgroundRepeat:"no-repeat" ,WebkitBackgroundSize:"100%",minWidth:'940px'}}>
         <Stack >
-            <Box id="welfare" w='30%'  alignSelf='end' mr='10%' mt='-100'>
+            <Box id="welfare" w='30%'  alignSelf='end' mr='10%' mt='5%'>
                 <img src='welfare.png' alt='welfare heading'/>
             </Box>
         </Stack>
         
-        <HStack  mt='6%' spacing='20' ml='6%' mr='6%' pb='200px'>
+        <HStack  mt='6%' spacing='20' ml='6%' mr='6%' pb='10%'>
 
             <Box  w='30%' h='full'  bg='rgba(255,255,255,0.3)'  borderRadius='lg' boxShadow='lg' >
                 <Stack spacing='10' p='5%'>
@@ -53,6 +53,7 @@ export default function Welfare(){
         </HStack>
         <Link to='/welfare'>
         </Link>
+        
     </div>
     )
 }

@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import { Text,HStack,Box,Tabs, TabList,Tab,TabPanels,TabPanel,Divider,Center, Heading ,Highlight} from "@chakra-ui/react";
 export default function Requirement(){
     return (
-    <div>
-        <Box  w='30%' ml='40%' mt='-30%' mb='150'>
+    <div w='100%' style={{minWidth:'940px'}}>
+        <Box  w='30%' ml='40%' mt='-25%' mb='150'>
             <img src='plane.png' alt='requirement heading'/>
         </Box>
-        <div id="requirement" w='100%' h='100%' style={{backgroundImage: "url(requireBg.png)" ,backgroundRepeat:"no-repeat" }}>
-            <HStack w='100%' h='900px' mt='-15%'  spacing='10'>
+        <div id="requirement" w='100%' h='100%' style={{backgroundImage: "url(requireBg.png)" ,backgroundRepeat:"no-repeat",WebkitBackgroundSize:"100%" }}>
+            <HStack w='100%' h='900px' mt='-10%'  spacing='10'>
                 <Box  w='10%' ml='5%' >
                     <img src='requirement.png' alt='requirement heading'/>
                 </Box>
                 <Box w='80%' mr='15%' >
-                    <Tabs  isFitted h='full'  borderRadius='2xl' boxShadow='lg'>
+                    <Tabs  isFitted h='full' size='lg'  borderRadius='2xl' boxShadow='lg'>
                         <TabList>
                             <Tab>产品</Tab>
                             <Tab>设计</Tab>
@@ -21,9 +21,9 @@ export default function Requirement(){
                             <Tab>后端</Tab>
                         </TabList>
 
-                        <TabPanels>
+                        <TabPanels >
                             <TabPanel>
-                                <HStack h='800px' p='10'>    
+                                <HStack h='700px' pt='-5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         <ol>
@@ -33,7 +33,7 @@ export default function Requirement(){
                                         </ol>
                                     </Text>
 
-                                    <Center height='700px' size='10px'>
+                                    <Center height='550px' size='10px'>
                                         <Divider orientation='vertical' style={{color:'blue'}}/>
                                     </Center>
                                     
@@ -66,7 +66,7 @@ export default function Requirement(){
                             </TabPanel>
                             
                             <TabPanel>
-                                <HStack h='800px' p='5%'>    
+                                <HStack h='700px' pt='-5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         <ol>
@@ -77,7 +77,7 @@ export default function Requirement(){
                                         </ol>
                                     </Text>
 
-                                    <Center height='700px' size='10px'>
+                                    <Center height='500px' size='10px'>
                                         <Divider orientation='vertical' style={{color:'blue'}}/>
                                     </Center>
                                     
@@ -108,7 +108,7 @@ export default function Requirement(){
                             </TabPanel>
                             
                             <TabPanel>
-                                <HStack h='800px' p='5%'>    
+                                <HStack h='700px'  pt='-5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         <ol>
@@ -119,7 +119,7 @@ export default function Requirement(){
                                         </ol>
                                     </Text>
 
-                                    <Center height='700px' size='10px'>
+                                    <Center height='550px' size='10px'>
                                         <Divider orientation='vertical' style={{color:'blue'}}/>
                                     </Center>
                                     
@@ -149,7 +149,7 @@ export default function Requirement(){
                             </TabPanel>
                             
                             <TabPanel>
-                                <HStack h='800px' p='5%'>    
+                                <HStack h='700px'   pt='-5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         后端承担了Matrix课程和考试系统的用户数据储存和处理。后端包含两个重要的部分：服务端和后台。                  
@@ -171,7 +171,7 @@ export default function Requirement(){
                                         负责接收同学们提交的程序，编译运行，与标准答案比对，最后返回程序的评测报告，详尽的呈现程序的运行情况。
                                     </Text>
 
-                                    <Center height='700px' size='10px'>
+                                    <Center height='550px' size='10px'>
                                         <Divider orientation='vertical' style={{color:'blue'}}/>
                                     </Center>
                                     

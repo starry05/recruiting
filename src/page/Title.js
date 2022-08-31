@@ -9,10 +9,10 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
 
  export default function Title(){
     return (
-      <div calss='Title' w='100%' h='100%' overflowX='hidden' >
+      <div calss='Title' w='100%' h='100%' overflowX='hidden' style={{minWidth:'940px'}} >
          <Box overflowX='hidden'  w='100%' h='100%'   bg='#BDDFFE' >
             <Box  w='100%' h='100%' style={{backgroundImage: "url(banner-img2.png)" ,backgroundRepeat:"no-repeat",backgroundSize:"50%"}}>      
-               <Box  w='100%' h='' style={{backgroundImage: "url(intro-background.png)" ,backgroundRepeat:"no-repeat" ,WebkitBackgroundSize:"110%"}}>            
+               <Box  w='100%' h='100%' pb='20px' style={{backgroundImage: "url(intro-background.png)" ,backgroundRepeat:"no-repeat" ,WebkitBackgroundSize:"110%"}}>            
                   <HStack >
                      <Box w='70%' mt='-3%'> 
                         <img src='banner-img.png' alt='banner'/>
@@ -45,15 +45,14 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
                            </ListItem>
                         </List>
 
-                        <Box w='40%' alignSelf='end'>
+                        <Box w='40%' alignSelf='end' >
+                           <a href="#introduction">
                            <img src='banner-img3.png' alt='banner'/>
+                           </a>
                         </Box>
 
                      </Stack>
-                  
-                  
-                     
-                     </HStack>
+                  </HStack>
                </Box>       
             </Box>
                      
