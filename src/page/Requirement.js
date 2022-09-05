@@ -13,7 +13,7 @@ export default function Requirement(){
                     <img src='requirement.png' alt='requirement heading'/>
                 </Box>
                 <Box w='80%' mr='15%' >
-                    <Tabs  isFitted h='full' size='lg' bg='rgb(255,255,255,0.3)'  borderRadius='2xl' boxShadow='lg'>
+                    <Tabs  isFitted h='full' size='lg' bg='rgb(255,255,255,0.5)'  borderRadius='2xl' boxShadow='lg'>
                         <TabList>
                             <Tab>产品</Tab>
                             <Tab>设计</Tab>
@@ -25,7 +25,7 @@ export default function Requirement(){
                             <TabPanel>
                                 <HStack h='700px' pt='-5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
-                                        <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
+                                        <Heading fontSize='3xl' textAlign='left' pb='10' color='rgb(144,146,220)'>岗位描述</Heading>
                                         <ol>
                                             <li>负责 Matrix 团队已有产品的调研、分析和优化。</li>
                                             <li>负责 Matrix 团队新产品或新模块的规划，挖掘用户需求，产出需求池、功能结构图、流程图、低保真原型图、PRD 和验收文档。</li>
@@ -38,19 +38,18 @@ export default function Requirement(){
                                     </Center>
                                     
                                     <Text  fontSize='l' w='60%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
-                                        <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>招新要求</Heading>
+                                        <Heading fontSize='3xl' textAlign='left' pb='10' color='rgb(144,146,220)'>招新要求</Heading>
                                         <ol>
-                                            <li>仅限20、21级同学。</li>
                                             <li>了解互联网产品经理的职责和定位，对 Matrix 的主要产品、功能和定位有了解和自己的看法。</li>
                                             <li>具备敏捷的洞察和逻辑思维能力，有把思考变为现实以满足用户需求的勇气和能力。</li>
                                             <li>工作严谨负责、有效率，注重用户体验。</li>
                                             <li>有优秀的信息检索、学习能力，能够通过快速学习获取相关知识。</li>
                                             <li>积极融入团队，及时跟进推进工作，快速与团队成员建立起良好的沟通，保证工作的完成。</li>
                                         </ol>                    
-                                        <Heading fontSize='3xl' textAlign='left' pt='7' pb='7' color='blue.500'>
+                                        <Heading fontSize='3xl' textAlign='left' pt='7' pb='7' >
                                             <Highlight
                                             query='加分项'
-                                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'blue.500'}} >
+                                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'rgb(144,146,220)'}} >
                                             加分项
                                             </Highlight>   
                                         </Heading>

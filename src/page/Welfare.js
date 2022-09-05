@@ -21,7 +21,7 @@ export default function Welfare(){
                         <img src='welfareT1.png' alt='充实假期' />
                     </Box>
                     <Text  fontSize='xl' w='90%'  mt='6%' pl='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' style={{textIndent:"2em"}} >
-                           <p> 参与我们寒暑假的线上开发,也能享受50+公益时和实验室补贴，学习开发两不误。</p>
+                           <p> 参与我们寒暑假的线上开发，也能享受50+公益时和其他福利，学习开发两不误。</p>
                            <p><br/><br/><br/></p>
                     </Text>
                 </Stack>

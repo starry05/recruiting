@@ -31,7 +31,7 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
 
                            <ListItem>
                               <ListIcon as={FiSend} color='blue.500' />
-                              亲自把奇思妙想的idea变成现实
+                              亲自把奇思妙想的 idea 变成现实
                            </ListItem>
 
                            <ListItem>
@@ -41,7 +41,7 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
                   
                            <ListItem>
                               <ListIcon as={FiCornerDownRight} color='blue.500' />
-                              那就不妨来Matrix试试吧~
+                              那就不妨来 Matrix 试试吧~
                            </ListItem>
                         </List>
 
