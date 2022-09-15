@@ -7,13 +7,13 @@ export default function Requirement(){
         <Box  w='30%' ml='40%' mt='-25%' mb='150'>
             <img src='plane.png' alt='requirement heading'/>
         </Box>
-        <div id="requirement" w='100%' h='100%' style={{backgroundImage: "url(requireBg.png)" ,backgroundRepeat:"no-repeat",WebkitBackgroundSize:"100%" }}>
-            <HStack w='100%' h='900px' mt='-10%'  spacing='10'>
-                <Box  w='10%' ml='5%' >
+        <div id="requirement" w='100%' h='100%'  style={{backgroundImage: "url(requireBg.png)" ,backgroundRepeat:"no-repeat",WebkitBackgroundSize:"100%" }}>
+            <HStack w='100%' h='900px' mt='-10%' pr='3%'  spacing='10'>
+                <Box  w='10%' ml='5%'  >
                     <img src='requirement.png' alt='requirement heading'/>
                 </Box>
                 <Box w='80%' mr='15%' >
-                    <Tabs  isFitted h='full' size='lg' bg='rgb(255,255,255,0.3)'  borderRadius='2xl' boxShadow='lg'>
+                    <Tabs  isFitted h='full' size='lg' bg='rgb(255,255,255,0.5)'  borderRadius='2xl' boxShadow='lg' >
                         <TabList>
                             <Tab>产品</Tab>
                             <Tab>设计</Tab>
@@ -21,9 +21,9 @@ export default function Requirement(){
                             <Tab>后端</Tab>
                         </TabList>
 
-                        <TabPanels >
+                        <TabPanels>
                             <TabPanel>
-                                <HStack h='700px' pt='-5%'>    
+                                <HStack h='700px' pt='-5%' pb='5%'>    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         <ol>
@@ -40,7 +40,7 @@ export default function Requirement(){
                                     <Text  fontSize='l' w='60%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>招新要求</Heading>
                                         <ol>
-                                            <li>仅限20、21级同学。</li>
+                          
                                             <li>了解互联网产品经理的职责和定位，对 Matrix 的主要产品、功能和定位有了解和自己的看法。</li>
                                             <li>具备敏捷的洞察和逻辑思维能力，有把思考变为现实以满足用户需求的勇气和能力。</li>
                                             <li>工作严谨负责、有效率，注重用户体验。</li>

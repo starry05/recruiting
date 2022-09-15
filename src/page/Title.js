@@ -41,7 +41,7 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
                   
                            <ListItem>
                               <ListIcon as={FiCornerDownRight} color='blue.500' />
-                              那就不妨来Matrix试试吧~
+                              那就不妨来 Matrix 试试吧~
                            </ListItem>
                         </List>
 

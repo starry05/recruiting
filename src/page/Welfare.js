@@ -15,18 +15,18 @@ export default function Welfare(){
         
         <HStack  mt='6%' spacing='20' ml='6%' mr='6%' pb='10%'>
 
-            <Box  w='30%' h='full'  bg='rgba(255,255,255,0.3)'  borderRadius='lg' boxShadow='lg' >
+            <Box  w='30%' h='full'  bg='rgba(255,255,255,0.5)'  borderRadius='lg' boxShadow='lg' >
                 <Stack spacing='10' p='5%'>
                     <Box w='80%' pl='10%' pt='10px'>
                         <img src='welfareT1.png' alt='充实假期' />
                     </Box>
-                    <Text  fontSize='xl' w='90%'  mt='6%' pl='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' style={{textIndent:"2em"}} >
-                           <p> 参与我们寒暑假的线上开发,也能享受50+公益时和实验室补贴，学习开发两不误。</p>
+                    <Text  fontSize='xl' w='90%'   mt='6%' pl='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' style={{textIndent:"2em"}} >
+                           <p> 参与我们寒暑假的线上开发,也能享受50+公益时和其他福利，学习开发两不误。</p>
                            <p><br/><br/><br/></p>
                     </Text>
                 </Stack>
             </Box>
-            <Box  w='30%' h='full' mt='-400px' bg='rgba(255,255,255,0.3)'  borderRadius='lg' boxShadow='lg' >
+            <Box  w='30%' h='full' bg='rgba(255,255,255,0.5)'  borderRadius='lg' boxShadow='lg' >
                 <Stack spacing='10' p='5%'>
                     <Box w='80%' pl='10%' pt='10px'>
                         <img src='welfareT2.png' alt='充实假期' />
@@ -37,7 +37,7 @@ export default function Welfare(){
                     </Text>
                 </Stack>
             </Box>
-            <Box  w='30%' h='full' mt='-400px' bg='rgba(255,255,255,0.3)'  borderRadius='lg' boxShadow='lg' >
+            <Box  w='30%' h='full'   bg='rgba(255,255,255,0.5)'  borderRadius='lg' boxShadow='lg' >
                 <Stack spacing='10' p='5%'>
                     <Box w='80%' pl='10%' pt='10px'>
                         <img src='welfareT3.png' alt='充实假期' />

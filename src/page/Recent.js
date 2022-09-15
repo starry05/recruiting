@@ -21,7 +21,7 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
               <img src='rainbow.png' alt='rainbow'/>
             </Box> */}
           </HStack>
-          <Box  w='80%' h='max-content' p="5%"  bg='rgba(255,255,255,0.3)'  borderRadius='xl' boxShadow='lg'>
+          <Box  w='80%' h='max-content' p="5%"  bg='rgba(255,255,255,0.5)'  borderRadius='xl' boxShadow='lg'>
              {/*预留*/}
              <List class="class-bo" spacing={2}  textAlign='left' position='relative'  fontSize='2xl' lineHeight='taller' >
                   <ListItem>
@@ -37,7 +37,7 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
                       </Text>
                   </ListItem>
                   
-                  <ListItem>
+                  {/* <ListItem>
                     <ListIcon as={AiFillCarryOut} color='blue.500' />
                       <Highlight
                         query='服务稳定性提升'
@@ -49,7 +49,7 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
                       诞生十年以来，已经涌出了很多基于 Go  的应用，其中不妨大家耳熟能详的 Kubernetes、飞书、知乎。
                       本次重构目的是将服务端从 Node.js 这个动态语言迁移到静态语言 Go 上，并添加更多使用功能如监控、RPC服务、Tracing 等。
                       </Text>
-                  </ListItem>
+                  </ListItem> */}
                   
                   <ListItem>
                     <ListIcon as={AiFillTags} color='blue.500' />
