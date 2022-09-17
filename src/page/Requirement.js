@@ -23,7 +23,7 @@ export default function Requirement(){
 
                         <TabPanels>
                             <TabPanel>
-                                <HStack h='700px' pt='-5%' pb='5%'>    
+                                <HStack h='700px' pt='-5%' >    
                                     <Text  fontSize='l' w='40%'h='700px'  p='5%' fontFamily='-moz-initial' textAlign='justify' lineHeight='taller' >
                                         <Heading fontSize='3xl' textAlign='left' pb='10' color='blue.500'>岗位描述</Heading>
                                         <ol>
@@ -47,7 +47,7 @@ export default function Requirement(){
                                             <li>有优秀的信息检索、学习能力，能够通过快速学习获取相关知识。</li>
                                             <li>积极融入团队，及时跟进推进工作，快速与团队成员建立起良好的沟通，保证工作的完成。</li>
                                         </ol>                    
-                                        <Heading fontSize='3xl' textAlign='left' pt='7' pb='7' color='blue.500'>
+                                        <Heading fontSize='3xl' textAlign='left' pt='7' pb='7' >
                                             <Highlight
                                             query='加分项'
                                             styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'blue.500'}} >

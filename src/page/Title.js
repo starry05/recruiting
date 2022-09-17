@@ -31,7 +31,7 @@ import { FiCornerDownRight,FiSend } from "react-icons/fi"
 
                            <ListItem>
                               <ListIcon as={FiSend} color='blue.500' />
-                              亲自把奇思妙想的idea变成现实
+                              亲自把奇思妙想的 idea 变成现实
                            </ListItem>
 
                            <ListItem>

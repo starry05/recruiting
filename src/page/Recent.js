@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import {Box,Stack,HStack,Text,List,ListItem,ListIcon, Highlight } from '@chakra-ui/react'
-import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
+import { AiFillTool,AiFillTags,AiFillCarryOut,AiFillBulb} from "react-icons/ai";
 // import Requirement from './Requirement'
 
 
@@ -25,10 +25,10 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
              {/*预留*/}
              <List class="class-bo" spacing={2}  textAlign='left' position='relative'  fontSize='2xl' lineHeight='taller' >
                   <ListItem>
-                    <ListIcon as={AiFillTool} color='blue.500' />
+                    <ListIcon as={AiFillTool} color='blue.600' />
                       <Highlight
                         query='VSC extension'
-                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'black'}}>
+                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgb(171, 130 ,255,0.2)' ,color:'black'}}>
                         VSC extension
                       </Highlight>
                       <Text  fontSize='initial' w='80%' ml='5%' fontFamily='-moz-initial' lineHeight='taller' style={{textIndent:"2em"}}>
@@ -41,7 +41,7 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
                     <ListIcon as={AiFillCarryOut} color='blue.500' />
                       <Highlight
                         query='服务稳定性提升'
-                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'black'}}>
+                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgb(171, 130 ,255,0.2)' ,color:'black'}}>
                         服务稳定性提升
                       </Highlight>
                       <Text  fontSize='initial' w='80%'ml='5%' fontFamily='-moz-initial' lineHeight='taller' style={{textIndent:"2em"}}>
@@ -52,10 +52,10 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
                   </ListItem> */}
                   
                   <ListItem>
-                    <ListIcon as={AiFillTags} color='blue.500' />
+                    <ListIcon as={AiFillTags} color='blue.600' />
                       <Highlight
                         query='新前端'
-                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'black'}}>
+                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgb(171, 130 ,255,0.2)' ,color:'black'}}>
                         新前端
                       </Highlight>
                       <Text  fontSize='initial' w='80%'ml='5%' fontFamily='-moz-initial' lineHeight='taller' style={{textIndent:"2em"}}>
@@ -66,10 +66,10 @@ import { AiFillTool,AiFillTags,AiFillCarryOut} from "react-icons/ai";
                   </ListItem>
                   
                   <ListItem>
-                  <ListIcon as={AiFillTags} color='blue.500' />
+                  <ListIcon as={AiFillBulb} color='blue.600' />
                       <Highlight
                         query='服务端静态化重构'
-                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgba(164,203,236,0.5)' ,color:'black'}}>
+                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'rgb(171, 130 ,255,0.2)' ,color:'black'}}>
                         服务端静态化重构
                       </Highlight>
                       <Text  fontSize='initial' w='80%' ml='5%' fontFamily='-moz-initial' lineHeight='taller' style={{textIndent:"2em"}}>
